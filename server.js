@@ -66,7 +66,7 @@ const corsOptions = {
     methods: ['GET', 'POST'], // Добавили POST для работы с waitlist
     optionsSuccessStatus: 200
 };
-app.use(cors(corsOptions));
+//app.use(cors(corsOptions));
 
 // Защита от DDoS атак
 const limiter = rateLimit({
